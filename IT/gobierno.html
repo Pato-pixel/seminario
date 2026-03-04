@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<title>Gobierno, Arquitectura y Gestión de TI</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:#efefef;
+    color:#333;
+}
+
+.header{
+    background:#6d6e71;
+    color:white;
+    padding:35px 10px 25px 60px;
+}
+
+.header h1{
+    margin:0;
+    font-size:60px;
+    font-weight:500;
+}
+
+.header p{
+    margin-top:8px;
+    font-style:italic;
+    font-size:14px;
+    opacity:0.9;
+}
+
+.intro{
+    background:white;
+    padding:25px 60px;
+    font-size:20px;
+    line-height:1.7;
+    text-align: full;
+}
+
+.main{
+    background:white;
+    padding:30px 60px 60px 60px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:60px;
+    grid-row-gap:35px;
+}
+
+h2{
+    margin:0 0 10px 0;
+    font-size:30px;
+    font-weight:600;
+    color:#444;
+}
+
+p{
+    font-size:15px;
+    line-height:1.7;
+    margin:0;
+    text-align:justify;
+}
+
+.image img{
+    width:100%;
+    height:auto;
+    border-radius:3px;
+}
+
+ol{
+    padding-left:18px;
+    margin:0;
+    font-size:14px;
+}
+
+ol li{
+    margin-bottom:12px;
+}
+
+ul{
+    margin-top:6px;
+    padding-left:18px;
+}
+
+ul li{
+    margin-bottom:4px;
+}
+
+.full{
+    grid-column:1 / 3;
+}
+
+.domain{
+    margin-bottom:12px;
+    margin-left: 50px;
+}
+
+.domain strong{
+    display:block;
+    margin-bottom:4px;
+}
+
+@media(max-width:900px){
+    .main{
+        grid-template-columns:1fr;
+    }
+    .full{
+        grid-column:1;
+    }
+}
+
+.arquitectura-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:70px;
+    align-items:start;
+}
+
+.arquitectura-texto{
+    margin-left: 50px;
+        margin-right: 100px;
+}
+
+.arquitectura-dominios ol{
+    padding-left:18px;
+}
+
+.gob{
+    padding-left: 50px;
+    margin-right: 100px;
+}
+
+.ges{
+    padding-left: 50px;
+        margin-right: 100px;
+}
+
+.image{
+    size: 10px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Gobierno, Arquitectura y Gestión de TI</h1>
+    <p>"Alineando Estrategia, Diseño y Operación para generar valor al negocio"</p>
+</div>
+
+<div class="intro">
+En la era digital, la Tecnología de la Información (TI) ha dejado de ser un simple centro de costo o un soporte administrativo para convertirse en el motor principal de la innovación, la competitividad y la eficiencia empresarial. Prácticamente ninguna estrategia de negocio moderna puede ejecutarse sin un componente tecnológico clave, ya sea para optimizar procesos, analizar datos masivos, relacionarse con clientes o lanzar nuevos productos digitales.
+<br><br>
+Sin embargo, esta dependencia trae consigo un desafío crítico: ¿cómo asegurarse de que la inversión en tecnología realmente aporta valor al negocio, en lugar de generar caos, complejidad y gastos innecesarios? La respuesta se encuentra en la integración armoniosa de tres pilares fundamentales: el Gobierno de TI, la Arquitectura Empresarial y la Gestión de Servicios de TI.
+</div>
+
+<div class="main">
+
+<div class="gob">
+    <h2>Gobernanza</h2>
+    <p>
+    El Gobierno de TI actúa como la brújula y el control. Responde a la pregunta 
+    ¿qué debemos hacer y por qué? Establece el marco de reglas, la toma de decisiones 
+    y los mecanismos de control para asegurar que la tecnología se gestione con ética, 
+    transparencia y alineada con los objetivos estratégicos, equilibrando el valor, el 
+    riesgo y los recursos.
+    </p>
+</div>
+
+<div class="image">
+    <img src="img/gobernanza2.jpg" alt="gobernanza">
+</div>
+
+<div class="ges">
+    <h2>Gestión de Servicios</h2>
+    <p>
+    Actúa como el motor y el mantenimiento diario. Responde a la pregunta 
+    ¿cómo entregamos y operamos el servicio de manera eficiente hoy? Se enfoca 
+    en la ejecución táctica y operativa, asegurando que los servicios de TI se 
+    proporcionen con calidad, disponibilidad y soporte que los usuarios del negocio necesitan.
+    </p>
+</div>
+
+<div>
+    <h2>Áreas de servicio</h2>
+    <ol>
+        <li>
+            <strong>Gestión de Servicios de TI (ITSM):</strong>
+            <p>
+                Es el corazón de la Gestión de TI. Se centra en la entrega y el soporte de extremo a extremo de los servicios de TI a los usuarios.
+            </p>
+            <p>
+                Su marco de mejores prácticas más conocido es ITIL (Information Technology Infrastructure Library). ITIL proporciona procesos como:
+            </p>
+            <ul>
+                <li><strong>Gestión de Incidentes:</strong> Restaurar el servicio normal lo antes posible tras una interrupción.</li>
+                <li><strong>Gestión de Problemas:</strong> Encontrar y eliminar la causa raíz de las incidencias.</li>
+                <li><strong>Gestión de Cambios:</strong> Controlar y estandarizar las modificaciones en la infraestructura para minimizar riesgos.</li>
+                <li><strong>Gestión de Niveles de Servicio:</strong> Negociar, acordar y monitorear los niveles de servicio con el negocio.</li>
+            </ul>
+        </li>
+
+        <li>
+            <strong>Gestión de Infraestructura:</strong>
+            <p>
+                Se ocupa de la administración física y lógica de los componentes tecnológicos: servidores, redes, bases de datos, almacenamiento y servicios en la nube.
+            </p>
+            <p>
+                Incluye tareas como el aprovisionamiento, el monitoreo del rendimiento, las actualizaciones y los parches de seguridad.
+            </p>
+        </li>
+
+        <li>
+            <strong>Gestión de Operaciones:</strong>
+            <p>
+                Es la supervisión y el control del “día a día” del centro de procesamiento de datos. Asegura que las tareas programadas (copias de seguridad, procesos batch) se ejecuten correctamente y que el entorno de producción esté estable.
+            </p>
+        </li>
+
+        <li>
+            <strong>Gestión de Proyectos de TI:</strong>
+            <p>
+                Se enfoca en la planificación, ejecución y control de iniciativas concretas con un principio y un fin, como la implementación de un nuevo software, el desarrollo de una aplicación a medida o la migración a la nube.
+            </p>
+            <p>
+                Utiliza metodologías como PMI (Project Management Institute) o marcos ágiles como Scrum.
+            </p>
+        </li>
+
+        <li>
+            <strong>Gestión de Seguridad de la Información:</strong>
+            <p>
+                Aunque es una disciplina en sí misma, una parte crítica de la gestión diaria es la aplicación de controles para proteger la confidencialidad, integridad y disponibilidad de los datos (ej. gestión de antivirus, cortafuegos y control de accesos).
+            </p>
+        </li>
+    </ol>
+</div>
+
+<div class="full arquitectura-grid">
+
+    <div class="arquitectura-texto">
+        <h2>Arquitectura Empresarial</h2>
+        <p>
+            Actúa como el "plano maestro" y el "urbanista". Responde a la pregunta 
+            ¿dónde estamos y cuál es el plan para llegar a dónde queremos?. 
+            Proporciona una visión holística de la organización, conectando 
+            procesos de negocio, datos, aplicaciones e infraestructura 
+            tecnológica para diseñar un futuro coherente y evitar la improvisación.
+        </p>
+    </div>
+
+    <div class="arquitectura-dominios">
+        <h2>Dominios</h2>
+
+        <ol>
+            <li>
+                <strong>Arquitectura de Negocio:</strong>
+                <ul>
+                    <li><strong>¿Qué es?</strong> Describe la estrategia, gobernanza, estructura organizativa y procesos clave.</li>
+                    <li><strong>Ejemplos:</strong> Mapa de procesos, organigrama, objetivos estratégicos.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>Arquitectura de Datos:</strong>
+                <ul>
+                    <li><strong>¿Qué es?</strong> Describe la estructura de los activos de datos y su gestión.</li>
+                    <li><strong>Ejemplos:</strong> Modelo de datos, bases de datos, data lakes.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>Arquitectura de Aplicaciones:</strong>
+                <ul>
+                    <li><strong>¿Qué es?</strong> Describe cómo las aplicaciones interactúan entre sí.</li>
+                    <li><strong>Ejemplos:</strong> ERP, CRM, integraciones, inventario de aplicaciones.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>Arquitectura Tecnológica:</strong>
+                <ul>
+                    <li><strong>¿Qué es?</strong> Describe la infraestructura que soporta las aplicaciones.</li>
+                    <li><strong>Ejemplos:</strong> Servidores, redes, nube, middleware.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
